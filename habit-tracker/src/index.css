@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply flex justify-center font-sans antialiased bg-violet-300 text-blue-800;
+}
+
+input[type="text"] {
+  @apply w-full border-2 border-violet-500 my-1 py-2 px-3 rounded-2xl shadow-sm mt-4 text-gray-900 mb-2;
+}
+
+input[type="checkbox"] {
+  @apply h-4 w-4 text-violet-600 ml-1 mr-2 align-middle mb-1 tracking-wide accent-violet-800;
+}
+
+button {
+  @apply w-full px-4 py-2 bg-violet-600 text-white rounded mb-6;
+}
+
+button:hover {
+  @apply bg-violet-700;
+}
+
+label {
+  @apply text-lg font-medium;
+}
+
+ul {
+  @apply list-disc list-inside text-xl font-medium mr-2;
+}
+
+li {
+  @apply mb-2;
+}
